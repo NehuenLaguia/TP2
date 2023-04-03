@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;800&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(233,231,218);
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    height: 10vh; 
+    
+}
+
+header a{
+    text-decoration: none;
+    color: rgb(57,62,68);
+    align-items: center;
+    font-weight: 800;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    gap: 15%;
+}
+
+.flecha1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    margin-top: 100px;
+}
+
+.flecha{
+    display: flex;
+    width: 50%;
+    
+    align-items: center;
+    justify-content: end;
+}
+
+.flechason{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: rgb(207, 205, 194);
+    width: 50%;
+    height: 100%;
+    color: rgb(57,62,68);
+}
+.flechason i{
+    font-size: 30px;
+    margin-left: 25px;
+    margin-right: 8px;
+    color: rgb(57,62,68);
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.flecha-aux{
+    width: 50%;
+    
+}
+.junto{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    top: 100vh;
+    align-items: center;
+}
+
+.pgrey{
+    display: flex;
+    background-color: rgb(57,62,68);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: rgb(233,231,218);
+    
+}
+
+.lfondo{
+    display: flex;
+    background-color: rgb(207, 205, 194);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+    
+}
+
+.text{
+    position: absolute;
+    z-index: 1;
+    color: rgb(57,62,68);
+    font-size: 30px;
+}
+
+
+
+.text2{
+    color: rgb(233,231,218);
+    width: 100%;
+    height: 100%;
+    font-size: 85px;
+    letter-spacing: 0px;
+    margin-top: 60px;
+}
+
+.text3{
+    margin-top: 5px;
+}
+
+.koh1{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    justify-content: center;
+    margin-left: 200px;
+
+}
+
+.koh{
+    display: flex;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    justify-content: end;
+    background-color: rgb(57,62,68);
+    color: rgb(233,231,218);
+    right: 100vh;
+
+}
+
+.koh button{
+    color: rgb(233,231,218);
+}
+
+.koh i{
+    font-size: 30px;
+    margin-left: 8px;
+    margin-right: 25px;
+}
+
+.imgn{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    left: 100vh;
+    top: 75px;
+    
+ 
+}
+
+.negro{
+    top: 0;
+    position: absolute;
+    z-index: 1;
+    width: 57vh;
+    
+    
+}
+
+.down{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    bottom: 10vh;
+    position: relative;
+    z-index: 3;
+    margin-top: 50px;
+    color: rgb(57,62,68);
+}
+.down div{
+    display: block;
+}
+
+.a120 {
+    font-size: 50px;  
+}
+.b120{
+    color: rgb(233,231,218);
+}
+.a8{
+    font-size: 50px;
+}
+
+.a8a{
+    font-size: 70px;
+}
